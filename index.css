@@ -85,7 +85,7 @@ main small {
   visibility: hidden;
   opacity: 0;
   transition: .3s;
-  background: #000;
+  /*background: #000;*/
 }
 #nav-container:focus-within .bg {
   visibility: visible;
@@ -140,6 +140,7 @@ main small {
 #nav-content {
   margin-top: 70px;
   padding: 20px;
+  z-index:100;
   width: 90%;
   max-width: 300px;
   position: absolute;
